@@ -45,8 +45,7 @@ The **objective of this challenge** is to build an end-to-end Machine Learning s
 <picture>
       <img src="wiki/img/cover.png" alt="logo" width="800">
 </picture>
-
-<br />
+<br/><br/>
 
 Throughout the challenge, you will apply your knowledge of data science, machine learning, software architecture, and intelligent systems to build a complete solution that predicts house prices. The goal is to help users assess whether a property is fairly priced or estimate the value of their own home when selling.
 
