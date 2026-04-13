@@ -208,6 +208,7 @@ The table below shows the required technology stack to implement the solution. Y
 | **SHAP / Feature Importance tools** | Used to provide explainability by highlighting which features influence predictions. |
 | **PostgreSQL / SQLite (optional)** | Database to store predictions, user inputs, logs, or model metadata. |
 | **GitHub Actions (optional)** | CI/CD tool to automate testing, building, and deployment of the project. |
+ **AI assistants (Codex, Claude Code, Copilot, etc.)** | The use of AI tools is encouraged. Feel free to use any tool to help you build your solution as long as you understand what you are implementing.
 
 # ✅ Evaluation criteria
 
@@ -240,3 +241,19 @@ Before submitting, ensure that:
 - Running docker compose up starts the complete system (backend, frontend, and any additional services).
 - All services are properly connected and the API endpoints are accessible.
 - The application works end-to-end: from user input to prediction and explanation.
+
+# 💡 Tips
+
+- **Start by understanding the dataset.** Before training any model, explore the variables, check missing values, inspect distributions, and look for relationships with the target variable.
+
+- **Create your own train/test split.** Divide the dataset into training and test sets before training the model. This is necessary to evaluate how well your solution generalizes to unseen data. Do not use the test set to make modeling decisions. Use only the training set for preprocessing, feature engineering, and model selection.
+
+- **Use `scikit-learn` pipelines.** Pipelines help you apply the exact same preprocessing steps during both training and prediction, reducing errors and preventing inconsistencies between development and production. Operations such as imputing missing values, scaling, or encoding categorical variables must be learned from the training set and then applied to new data through the pipeline.
+
+- **Make the model easy to reuse.** Save or serialize the trained pipeline so it can be loaded directly by the backend without retraining.
+
+- **Design the API around real usage.** The backend should receive input data, validate it, run inference with the trained model, and return both the prediction and an explanation in a clear format.
+
+- **Use Docker early.** Do not leave containerization until the end. Building and testing the project with Docker from the beginning will save time later. Before submitting, ensure `docker-compose` starts the full solution correctly and that all services are accessible.
+
+- **Use AI tools as assistants (encouraged).** You are encouraged to use AI tools (e.g., ChatGPT, Copilot, etc.) to support your development process. These tools can help you explore ideas, debug issues, generate boilerplate code, or understand concepts. However, you are responsible for understanding, validating, and adapting any generated solution, as well as being able to explain your technical decisions.
