@@ -196,6 +196,13 @@ The main variables are:
 
 The table below shows the required technology stack to implement the solution. You should use the following tools to solve the proposed problem, with special emphasis in the use of `uv` and `docker` to be able to run the complete solution without needing to install any aditional dependencies. 
 
+>[!NOTE]
+> The repository already includes the basic `uv` project configuration in `pyproject.toml` and the expected Python version in `.python-version`. To create the same local environment with the same declared packages, run:
+>```bash
+>uv sync
+>```
+<br />
+
 | Technology | Description & Use |
 |-----------|------------------|
 | **uv** | Fast Python package manager and environment tool to manage dependencies and virtual environments efficiently. |
@@ -209,7 +216,7 @@ The table below shows the required technology stack to implement the solution. Y
 | **SHAP / Feature Importance tools** | Used to provide explainability by highlighting which features influence predictions. |
 | **PostgreSQL / SQLite (optional)** | Database to store predictions, user inputs, logs, or model metadata. |
 | **GitHub Actions (optional)** | CI/CD tool to automate testing, building, and deployment of the project. |
- **AI assistants (Codex, Claude Code, Copilot, etc.)** | The use of AI tools is encouraged. Feel free to use any tool to help you build your solution as long as you understand what you are implementing.
+| **AI assistants (Codex, Claude Code, Copilot, etc.)** | The use of AI tools is encouraged. Feel free to use any tool to help you build your solution as long as you understand what you are implementing. |
 
 # ✅ Evaluation criteria
 
