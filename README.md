@@ -107,7 +107,7 @@ This dataset contains 79 explanatory variables describing (almost) every aspect 
 You can get an idea of the dataset and how to process it in [this link](https://inria.github.io/scikit-learn-mooc/python_scripts/datasets_ames_housing.html). And you can learn more about it on it's [original paper](https://jse.amstat.org/v19n3/decock.pdf) and on [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data).
 
 >[!NOTE]
-> This dataset is located in the `data` directory. It is stored in a comma separated value (CSV) file `house_prices.txt`. The dataset contains missing values. The character `"?"` is used as a missing value marker. You can find a detailed description of all the variables in the file `data/data_description.txt`.
+> This dataset is located in the `data/raw` directory. It is stored in a comma separated value (CSV) file `house_prices.txt`. The dataset contains missing values. The character `"?"` is used as a missing value marker. You can find a detailed description of all the variables in the file `data/external/data_description.txt`.
 
 The main variables are:
 
