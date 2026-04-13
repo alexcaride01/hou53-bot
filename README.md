@@ -6,17 +6,13 @@ Creation date: 12/04/2026
 
 <a id="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
+
 
 <br />
 <div align="center">
   <a href="">
     <picture>
-      <img src="wiki/img/logo.png" alt="logo" width="80" height="80">
+      <img src="wiki/img/logo.png" alt="logo" width="150">
     </picture>
   </a>
 
@@ -28,9 +24,17 @@ Creation date: 12/04/2026
     Keep on reading to learn more about this exciting challenge!
     <br />
   </p>
+
+
+
+![GitHub License](https://img.shields.io/github/license/Yagouus/hou53-bot)
+![GitHub Release](https://img.shields.io/github/v/release/Yagouus/hou53-bot)
+
 </div>
 
-![robot image](wiki/img/cover.png)
+<picture>
+      <img src="wiki/img/cover.png" alt="logo" width="800">
+</picture>
 
 
 HOU53-bot is your personal house finding assistant. This bot will help you estimate the price of your dream house and decide on whether to buy it or not!
